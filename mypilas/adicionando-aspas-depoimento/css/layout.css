@@ -1,29 +1,10 @@
-.layout-cabecalho {
-  height: 60px;
-  border-bottom: 1px solid #ccc;
-
-  background-color: #fff;
-}
-
-.layout-cabecalho--home {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-}
-
-.layout-cabecalho img {
-  margin-top: 12px;
-}
-
 .layout-planos {
   padding: 80px 0;
 }
 
 .layout-chamada {
   padding: 80px 0;
-  margin-top: 60px;
+  margin-bottom: 100px;
 
   background-color: #7ab55c;
 }
@@ -35,8 +16,12 @@
 
 .layout-rodape {
   padding: 40px 0;
+  position:fixed;
+  width: 100%;
+  bottom:0px;
 
-  background-color: #484848;
+  left:0px;
+  background-color: rgb(255, 255, 255);
 
   color: #fff;
   text-align: center;
